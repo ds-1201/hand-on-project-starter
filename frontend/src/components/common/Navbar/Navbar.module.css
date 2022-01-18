@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #fff;
+  font-family: "DM Sans";
+  display: flex;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 100px;
+}
+
+.navbar__flex {
+  flex: 1;
+}
+
+.navbar__nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 0 25px;
+}
+
+.navbar__link,
+.navbar__link:link,
+.navbar__link:visited {
+  color: #000;
+  font-weight: 500;
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.btn--blue {
+  background-color: #142683;
+  color: #fff;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 35px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(247, 248, 250, 0.5);
+  font-family: "DM Sans";
+}
+
+.login__main {
+  display: flex;
+}
+
+.login__left {
+  background-color: rgba(247, 248, 250, 0.5);
+  flex: 0.5;
+  height: 90vh;
+}
+
+.login__right {
+  background-color: #fff;
+  flex: 0.5;
+  height: 90vh;
+}
+
+.login__content {
+  width: 50%;
+  margin: 120px auto;
+}
+
+.login__logo {
+  height: 80px;
+}
+
+.login__title1 {
+  display: block;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 34px;
+  font-size: 48px;
+}
+
+.login__title2 {
+  display: block;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.login__sub {
+  font-weight: 500;
+  color: #566474;
+  line-height: 1.4;
+  font-size: 28px;
+}
