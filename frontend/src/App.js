@@ -1,10 +1,12 @@
 import React from "react";
-import Login from "./pages/Login/Login";
+import Navbar from "./components/common/Navbar/Navbar";
+import Banner from "./components/Banner/Banner";
 
 function App() {
   return (
     <>
-      <Login />
+      <Navbar />
+      <Banner />
     </>
   );
 }
